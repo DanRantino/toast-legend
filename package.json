@@ -7,7 +7,6 @@
     "legendapp",
     "components"
   ],
-  "private": true,
   "version": "0.1.0",
   "main": "./dist/react-vite-library.umd.js",
   "module": "./dist/react-vite-library.es.js",
