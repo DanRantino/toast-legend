@@ -1,5 +1,5 @@
 import { toast } from '../hooks/toast';
-import { cn } from '../../utils/utils';
+import { cn } from '../utils/utils';
 import { ReactNode } from 'react';
 
 export type ToastType = {

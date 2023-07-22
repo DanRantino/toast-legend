@@ -20,7 +20,7 @@ function Toaster() {
                 key={v4()}
                 description={toast.get()?.description ?? ''}
                 id={toast.get()?.id ?? v4()}
-                type={toast.get()?.type ?? 'info'}
+                type={toast.get()?.type ?? 'alert-info'}
                 {...toast.get()}
               />
             </Memo>
