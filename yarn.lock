@@ -1205,9 +1205,9 @@
     "@jridgewell/sourcemap-codec" "1.4.14"
 
 "@legendapp/state@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@legendapp/state/-/state-1.6.0.tgz#ddcc994a4bbfc956f2b3ddf028fd6ccb30022ff8"
-  integrity sha512-iv3APMQViDDvzY2PznN2Xxy8g2Ce3MjeBgINLh1mU4Jb+UlkGxfIBae56gWEKAt2Rw6J18Q5yLuSLd7cPYZqhg==
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/@legendapp/state/-/state-1.6.2.tgz#c13418a6027712f16370b6487d3ea71066c7de68"
+  integrity sha512-sUWJM0vLTp+3uQUK+974bZ7riJwYICbKnP97hXaFssKQnh171hRsRx8KHjOQZ2XjVS4j09CxIWaxRJmtmzwFCA==
   dependencies:
     use-sync-external-store "^1.2.0"
 

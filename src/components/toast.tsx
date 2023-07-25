@@ -11,7 +11,7 @@ export type ToastType = {
   action?: ReactNode[];
 };
 
-function Toast({ id, type, description, icon, title, action }: ToastType) {
+function Toast({ id, type, description, icon, title, action }: ToastType): ReactNode {
   const handleDeleteToast = () => {
     const toasts = toast.toasts.get();
     const t = toasts.filter((v: ToastType) => v.id !== id);

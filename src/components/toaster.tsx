@@ -16,13 +16,15 @@ function Toaster() {
         {toast => (
           <Show if={toast.get()?.description && toast.get()?.id && toast.get()?.type} else={null}>
             <Memo>
-              <Toast
-                key={v4()}
-                description={toast.get()?.description ?? ''}
-                id={toast.get()?.id ?? v4()}
-                type={toast.get()?.type ?? 'alert-info'}
-                {...toast.get()}
-              />
+              {() => (
+                <Toast
+                  key={v4()}
+                  description={toast.get()?.description ?? ''}
+                  id={toast.get()?.id ?? v4()}
+                  type={toast.get()?.type ?? 'alert-info'}
+                  {...toast.get()}
+                />
+              )}
             </Memo>
           </Show>
         )}
